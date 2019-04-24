@@ -1,0 +1,27 @@
+h1, h2, h3, h4, .copyright {
+    font-family: 'Dokdo', cursive;
+
+}
+
+header {
+    text-align: center;
+}
+
+.winslosses {
+    font-family: 'Amatic SC', cursive;
+    font-display: bold;
+    font-size: 2em;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.containertwo {
+    size: 960px;
+}
+footer {
+    text-align: center;
+
+}
