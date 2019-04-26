@@ -13,6 +13,8 @@ function getRandomCharacter(){
     return randomChar;
 }    
 
+// GAME FUNCTION W/ ONKEYUP
+
 document.onkeyup = function(event) {
     console.log("GUESS", event.key);
     console.log("correct Character" + correctCharacter);
@@ -35,13 +37,10 @@ document.onkeyup = function(event) {
             guessesLeft = 10;
             guessSoFarList.textContent = "Guesses So Far: "
             correctCharacter = getRandomCharacter();
-
         }
-
 
     }
     // LOSSES
-
     if (guessesLeft === 0){
     
         var lossesHTML = document.getElementById("losses");
